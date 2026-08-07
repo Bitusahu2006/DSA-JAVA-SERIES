@@ -20,7 +20,7 @@ public class DamruPattern {
         }
 
         // Lower Half
-        for (int row = n - 1; row >= 1; row--) {
+        for (int row = n-1; row>=1; row--) {
 
             // Spaces
             for (int space = 1; space <= row - 1; space++) {
