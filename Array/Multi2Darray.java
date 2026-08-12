@@ -5,6 +5,7 @@ public class Multi2Darray {
         int arr[][]={{1,2,3},{1,2,3}};
 
         for(int i=0; i<arr.length; i++){
+
             for(int j=1;j<arr[i].length; j++){
                 int value=arr[i][j];
                 ans*=value;
